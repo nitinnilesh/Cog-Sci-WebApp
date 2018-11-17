@@ -7,36 +7,40 @@
 	<h1>Answer The Question</h1>
 	<!-- This if to choose between thanks and next -->
 	{% if idx < 27 %}
+		<div style="display: inline-block;">
+			<form action="/questionnaire/{{ idx|int + 1 }}">
+				<p>{{ question["q"] }}</p>
+				{% for optn in question["op"].keys() %}
+					<input class="option" type="radio" name="qn" value="{{ question["op"][optn] }}" required> {{ question["op"][optn] }}<br><br>
+				{% endfor %}
+				<!-- This if to choose between feedback or not -->
+				{% if idx < 13 %}
+					<div style="display: inline-block;">
+						<button type="button" onclick="show_feedback()">Answer</button>
+						<p class="feed" style="font-weight: bold; display:none;">Feedback</p>
+							<p class="feed" style="display:none;">{{ question["feed"]["sp"] }}</p><br>
+							<p class="feed" style="display:none;">{{ question["feed"]["rn"] }}</p><br><br>
+						<input class="sub" type="submit" name="Next" value="Next" style="display: none;">
+					</div>
+				{% else %}
+					<div style="display: inline-block;">
+						<input class="sub" type="submit" name="Next" value="Next">
+					</div>
+				{% endif %}
 
-		<form action="/questionnaire/{{ idx|int + 1 }}">
-			<p>{{ question["q"] }}</p>
-			{% for optn in question["op"].keys() %}
-				<input class="option" type="radio" name="qn" value="{{ question["op"][optn] }}" required> {{ question["op"][optn] }}<br>
-			{% endfor %}
-			<!-- This if to choose between feedback or not -->
-			{% if idx < 13 %}
-
-				<button type="button" onclick="show_feedback()">Answer</button>
-				<p class="feed" style="font-weight: bold; display:none;">Feedback</p>
-					<p class="feed" style="display:none;">{{ question["feed"]["sp"] }}</p><br>
-					<p class="feed" style="display:none;">{{ question["feed"]["rn"] }}</p><br>
-				<input class="sub" type="submit" name="Next" value="Next" style="display: none;">
-
-			{% else %}
-				<input class="sub" type="submit" name="Next" value="Next">
-			{% endif %}
-
-		</form>
-
+			</form>
+		</div>
 	{% else %}
-		<form action="/thanks">
-			<p>{{ question["q"] }}</p>
-			{% for optn in question["op"].keys() %}
-				<input type="radio" name="qn" value="{{ question["op"][optn] }}" required> {{ question["op"][optn] }}<br>
-			{% endfor %}
-			<input type="submit" name="Next", value="Finish">
-		</form>
-		
+		<div style="display: inline-block;">	
+			<form action="/thanks">
+				<p>{{ question["q"] }}</p>
+				{% for optn in question["op"].keys() %}
+					<input type="radio" name="qn" value="{{ question["op"][optn] }}" required> {{ question["op"][optn] }}<br><br>
+				{% endfor %}
+				<input type="submit" name="Next", value="Finish">
+			</form>
+		</div>
+
 	{% endif %}
 
 	<script type="text/javascript">
@@ -49,7 +53,7 @@
 			}
 
 			for (var i = 0; i < sub.length; i+=1) {
-				sub[i].style.display = 'block';
+				sub[i].style.display = 'inline-block';
 			}
 		}
 	</script>
