@@ -1,0 +1,41 @@
+﻿{
+  "1": {
+    "q": "You finalized two sets of clothing during shopping to wear on a festival to your workplace. Which do you finally pick?",
+    "op": {
+      "sop": "This set contains clothing that matches your usual clothing",
+      "rop": "This set contains the type of clothing that you would not normally pick(MIght even consider not your usual style)"
+    },
+    "feed": {
+      "sp": "Wearing your usual clothes demonstrates your ability to separate your work from personal events. You made a good impression with your colleagues",
+      "rp": "Once in a while it is good to loosen up with the formal dress code especially when it is a festival. You made a good impression with your colleagues",
+      "sn": "Even if the formal wear is the unofficial dress code at your work, you were expected to loosen up at least during festivals. You got a lot of raised eyebrows from your colleagues.",
+      "rn": "Even if it is a festival day, it is still the place of work and you were expected to follow the unofficial formal dress code. You got a lot of raised eyebrows from your colleagues."
+    }
+  },
+  "2": {
+    "q": "You want to buy apples as an apple a day keeps doctor away. Where do you buy them from?",
+    "op": {
+      "sop": "Normal Street vendor with apple cart",
+      "rop": "Supermarket with air conditioning"
+    },
+    "feed": {
+      "sp": "These apples smell and taste fresh with no preserving materials added. This vendor moves around the roads all day to sell his stock and sells enough to get new stock every day.",
+      "rp": "Apples here looked glossy and fresh. Air conditioning here is used to preserve stock for longer time. Hence the fruit remain fresh for longer time.",
+      "sn": "The street vendor cannot afford to replace the stock everyday. So, he uses wax coated apples to preserve his stock for longer time and hides the fact.",
+      "rn": "Apples here looked glossy and fresh. But to preserve the stock, this market uses wax coated apples. Lack of fruit scent is attributed to air conditioners to cover up the wax coat fact."
+    }
+  },
+  "3": {
+    "q": "You have some urgent work across the busy road with heavy traffic and need to cross it.",
+    "op": {
+      "sop": "You cross at zebra crossing 50m away",
+      "rop": "You cross straight across from where you stand to save time"
+    },
+    "feed": {
+      "sp": "It was fairly easy and fast to cross the road at zebra crossing and it wasn’t even farther",
+      "rp": "The heavy traffic was moving at the pace of snail that it made it easy for you to cross the road faster.",
+      "sn": "Even though the crossing was not far away, it took more time crossing road this way since the traffic was moving at a snail’s pace.",
+      "rn": "The traffic was so heavy that it took more time to cross the road than it would have taken in other way"
+    }
+  }
+}

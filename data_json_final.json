@@ -1,0 +1,374 @@
+﻿{
+   "1":{
+      "q":"You finalized two sets of clothing during shopping to wear on a festival to your workplace. Which do you finally pick?",
+      "op":{
+         "sop":"This set contains clothing that matches your usual clothing",
+         "rop":"This set contains the type of clothing that you would not normally pick(MIght even consider not your usual style)"
+      },
+      "feed":{
+         "sp":"Wearing your usual clothes demonstrates your ability to separate your work from personal events. You made a good impression with your colleagues",
+         "rn":"Even if it is a festival day, it is still the place of work and you were expected to follow the unofficial formal dress code. You got a lot of raised eyebrows from your colleagues.",
+         "sn":"Even if the formal wear is the unofficial dress code at your work, you were expected to loosen up at least during festivals. You got a lot of raised eyebrows from your colleagues.",
+         "rp":"Once in a while it is good to loosen up with the formal dress code especially when it is a festival. You made a good impression with your colleagues",
+         "":{
+
+
+         }
+      }
+   },
+   "2":{
+      "q":"You want to buy apples as an apple a day keeps doctor away. Where do you buy them from?",
+      "op":{
+         "sop":"Normal Street vendor with apple cart",
+         "rop":"Supermarket with air conditioning"
+      },
+      "feed":{
+         "sp":"These apples smell and taste fresh with no preserving materials added. This vendor moves around the roads all day to sell his stock and sells enough to get new stock every day.",
+         "rn":"Apples here looked glossy and fresh. But to preserve the stock, this market uses wax coated apples. Lack of fruit scent is attributed to air conditioners to cover up the wax coat fact.",
+         "sn":"The street vendor cannot afford to replace the stock everyday. So, he uses wax coated apples to preserve his stock for longer time and hides the fact.",
+         "rp":"Apples here looked glossy and fresh. Air conditioning here is used to preserve stock for longer time. Hence the fruit remain fresh for longer time.",
+         "":{
+
+
+         }
+      }
+   },
+   "3":{
+      "q":"You have some urgent work across the busy road with heavy traffic and need to cross it.",
+      "op":{
+         "sop":"You cross at zebra crossing 50m away",
+         "rop":"You cross straight across from where you stand to save time"
+      },
+      "feed":{
+         "sp":"It was fairly easy and fast to cross the road at zebra crossing and it wasn’t even farther",
+         "rn":"The traffic was so heavy that it took more time to cross the road than it would have taken in other way",
+         "sn":"Even though the crossing was not far away, it took more time crossing road this way since the traffic was moving at a snail’s pace.",
+         "rp":"The heavy traffic was moving at the pace of snail that it made it easy for you to cross the road faster."
+      }
+   },
+   "4":{
+      "q":"You are going to present your project work before an external panel. What clothing do you wear.",
+      "op":{
+         "sop":"Ironed formal wear",
+         "rop":"Your everyday casual wear"
+      },
+      "feed":{
+         "sp":"Formal wear is the default safe option during presentation. It helped the panel to focus more on your presentation than on your attire.",
+         "rn":"Examiners by default expect more formal wear. Casual wear made them unable to focus more on the project content",
+         "sn":"Formal wear used to be the default option during presentation. But no one wears it these days. It gave the panel the impression that you must be lacking in content",
+         "rp":"Formal wear used to be the default option during presentation. But turns out your panel gives more importance to the project content than the presenter’s appearance."
+      }
+   },
+   "5":{
+      "q":"You go to a nearby new eatery place that serves your native food. What do you order?",
+      "op":{
+         "sop":"A known dish that has low rating",
+         "rop":"An Unknown dish that has high rating"
+      },
+      "feed":{
+         "sp":"The food served does not relate to the ratings given. Turns out the the restaurant has been working on improving their dishes based on ratings.",
+         "rn":"Turns out this dish focuses more on it’s appearance rather than on pleasing taste buds",
+         "sn":"Turns out this dish focuses more on it’s appearance rather than on pleasing taste buds",
+         "rp":"Even though an unknown dish, you could feel the reason why it is given such a high rating the moment you tasted the dish."
+      }
+   },
+   "6":{
+      "q":"Your Doctor whom you have been consulting for years prescribed you a medicine for body pains. From available variants, what do you choose?",
+      "op":{
+         "sop":"Branded prescribed medicine",
+         "rop":"A generic version of the medicine that costs one-fifth of the branded medicine but differs in appearance and taste"
+      },
+      "feed":{
+         "sp":"As you have chosen branded prescribed medicine, you have a low risk of having major side-effects",
+         "rn":"The different inactive components(colour,taste) present in the generic version of the medicine are giving you mild stomach ache",
+         "sn":"These branded medicines are very expensive and cost 5 times to those of generic version",
+         "rp":"These are very cost effective and the inactive components(colour,taste) don’t cause any side effects",
+         "":{
+
+
+         }
+      }
+   },
+   "7":{
+      "q":"You shop online and there are cashback coupons available. Which do you use?",
+      "op":{
+         "sop":"25% cashback coupon for every 10th customer",
+         "rop":"50% cashback coupon for every 20th customer"
+      },
+      "feed":{
+         "sp":"Higher the probability, higher are the chances to win. Congrats you got 25% cashback",
+         "rn":"Lower the probability, lower are the chances to win. Congrats you got no cashback",
+         "sn":"Higher probability raises the chances to win, But you don’t win. Sorry you got no cashback",
+         "rp":"Taking risk sometimes is fruitful. Congrats you got 50% cashback"
+      }
+   },
+   "8":{
+      "q":"You went to a movie and want to have some snacks. Being a health conscious person and a popcorn lover which do you choose?",
+      "op":{
+         "sop":"Small popcorn that costs 100/-",
+         "rop":"Medium popcorn that costs 150/-"
+      },
+      "feed":{
+         "sp":"The small one is just enough for a snack",
+         "rn":"The medium has more than you bargained for and gives you a stomach ache",
+         "sn":"Even if this is the right amount in snack, it is not cost effective",
+         "rp":"It is cost effective to buy this and you can always bring the extra popcorn back"
+      }
+   },
+   "9":{
+      "q":"You want to invest some money for your future and you are going to do this for the first time. Which one would you choose to invest your money?",
+      "op":{
+         "sop:Recurring deposit which has low interest rate with almost zero risk":{
+
+
+         },
+         "rop:Mutual fund with high interest rate with high risk of losing money":{
+
+
+         }
+      },
+      "feed":{
+         "sp":"You haven’t lost anything and received 5% interest also.",
+         "rn":"You have lost 40% of your investment",
+         "sn":"You haven’t gained any significant money",
+         "rp":"A return of 150% of your investment is credited to your account"
+      }
+   },
+   "10":{
+      "q":"You want to buy your first car for everyday commuting and just have sufficient savings for a new one. Which one would you be buying?",
+      "op":{
+         "sop":"Showroom car that takes your whole savings but might cost low maintenance",
+         "rop":"Used car that costs 40% of your savings but might cost high maintenance."
+      },
+      "feed":{
+         "sp":"For the first three years, it did not take much to maintain the car. You saved a lot in maintenance and headache",
+         "rn":"Some thing or the other is always not right in this used car and always needs replacements. In your busy schedule it is really a headache.",
+         "sn":"It empties your complete savings",
+         "rp":"Calculated remodelling of the car and maintenance for three years still does not cost you more than 80% of the savings."
+      }
+   },
+   "11":{
+      "q":"You are driving the vehicle late at the night on a traffic less road. The traffic signal shows red. What do you do?",
+      "op":{
+         "sop":"Wait for the signal to turn green",
+         "rop":"Jump the signal"
+      },
+      "feed":{
+         "sp":"A minute delay has not caused any disturbances to your ride",
+         "rn":"Turns out there was a traffic camera at the signal which records signal jumps and writes challans",
+         "sn":"Turns out the orange light is not working and it is displaying red instead. You have wasted your precious time here.",
+         "rp":"Turns out the signal is not functioning properly and you did not break any rules by jumping the signal"
+      }
+   },
+   "12":{
+      "q":"You need a laptop for work since your current one passed it’s sixth year and is unable to handle new workload. Which one would you be buying?",
+      "op":{
+         "sop":"A laptop that comes with a three year full warranty at 1000$",
+         "rop":"A laptop without warranty at 700$"
+      },
+      "feed":{
+         "sp":"The warranty may cost more, but your repairs to your old laptop costed more combined",
+         "rn":"Your laptop had shutdown during rebooting and now the OS is corrupted. Without warranty it costs much to get the original version",
+         "sn":"Paying almost half the laptop cost is too much for warranty",
+         "rp":"Being an experienced user, you know how to handle your machine well"
+      }
+   },
+   "13":{
+      "q":"Given an option to choose your line of research, which type of problem would you choose?",
+      "op":{
+         "sop":"A good research problem with enough prior work",
+         "rop":"An ambitious problem with very limited prior work"
+      },
+      "feed":{
+         "sp":"Enough prior work gives you a deeper understanding of the problem and helps you in crafting your research problem better.",
+         "rn":"Limited prior work makes you start the work from almost ground zero and it takes a lot of time to even get basic qualitative results",
+         "sn":"Enough prior work means, a lot of explored areas, parallel research, and there will be high competition",
+         "rp":"Limited prior work gives you more to explore without worrying about competition"
+      }
+   },
+   "14":{
+      "q":"A close friend of yours wants you to prepare a travel itinerary for his family since you are native to the trip area and gave you an expected route.",
+      "op":{
+         "sop":"You include as many famous areas along the route as possible that you know of",
+         "rop":"You include a must visit important area out of the route which would mean missing some of the famous places."
+      },
+      "feed":{
+         "sp":"Your friend visited the places told by you and he enjoyed it.",
+         "rn":"Your friend didn’t like the must-visit important area and got disappointed that he missed to cover some famous places.",
+         "sn":"Your friend was disappointed that you gave him the same places that all the online forums show",
+         "rp":"Getting to visit this important location gave your friends family a chance to connect with the location in peace. They really enjoyed it and did not mind missing some of the overcrowded famous places."
+      }
+   },
+   "15":{
+      "q":"Even though you are habituated to signup process in online forums, you dislike this memory intensive password selection in the pipeline. For a new forum, what password do you pick?",
+      "op":{
+         "sop":"The same old password that you used at last forum",
+         "rop":"New password for a new forum"
+      },
+      "feed":{
+         "sp":"Even though you use the same password for each forum, only you know the password and its safe.",
+         "rn":"You have trouble remembering passwords for each forum and most of the time you go to the “Forgot Password” section.",
+         "sn":"One of the websites you signed up for turned out to be a phishing site and now your email and password are compromised and all the data on the sites you used them to sign in.",
+         "rp":"Even though you hate it, you understand the significance of having a different password for different forums."
+      }
+   },
+   "16":{
+      "q":"The day has come where you are financially stable to afford to buy your dream home. Which design would you prefer?",
+      "op":{
+         "sop":"A senior architect with 15 years of experience but not much work in your preferred design domain",
+         "rop":"A junior architect with 5 years of experience exclusively in your preferred design domain"
+      },
+      "feed":{
+         "sp":"Even though he is not working on your preferred design, he is a senior architect and he knows very well what to do from his experience. His designs come close enough to suit your preferences",
+         "rn":"The initial work went good, but when faced with a practical problem which was not accounted during planning, the architect panicked and completely damaged the further work.",
+         "sn":"He may have the experience but his work on your preferred style is nothing but average",
+         "rp":"This junior architect might have less number of work experience under his belt, but he definitely knows what he is doing. His designs come out breathtaking suiting your preferences."
+      }
+   },
+   "17":{
+      "q":"A younger cousin of yours has just finished his 10th board exams and asked you for a career suggestion so he could better pick his subject groups in coming years.",
+      "op":{
+         "sop":"You suggest him a career path that has more scope in finding jobs",
+         "rop":"You suggest him to go in a career path of his interest even if it has less scope in finding jobs"
+      },
+      "feed":{
+         "sp":"This is the safest option to choose as he will have more chances of getting a job.",
+         "rn":"Even though he has interest in this area and after working hard, he is not able to find any satisfactory job yet.",
+         "sn":"As this area is not a part of his interest, he may end up scoring bad marks.",
+         "rp":"Even if the number of jobs is less, he has interest in this area and he may end up doing something great.",
+         "":{
+
+
+         }
+      }
+   },
+   "18":{
+      "q":"Your close friend from long time is new in town and wants to meet at a restaurant. Which one do you pick?",
+      "op":{
+         "sop":"A high rating restaurant where you have been before and the food was OK.",
+         "rop":"A high rating new restaurant which is also known for its ambiance"
+      },
+      "feed":{
+         "sp":"Even though the food was OK, you knew what to expect from the restaurant. You had complete knowledge about the taste of dishes",
+         "rn":"Turns out this restaurant has the menu which you are not familiar with. You completely made a mess of taste buds while ordering the unknown dishes",
+         "sn":"This is a special occasion and an OK tasting dish is not enough and completely will ruin the evening",
+         "rp":"Even though you struggles a bit with the menu, the waiters helped you with selection and the ambiance calmed you down and helped you in having a wonderful evening"
+      }
+   },
+   "19":{
+      "q":"Which airlines company to choose for your next flight?",
+      "op":{
+         "sop":"Your regular trusted airlines in the normal price range that has ~ 1-hour inconsistency in flight scheduling and has overbooking issue.",
+         "rop":"A new airline with 30% cheaper tickets that has ~4 hours inconsistency in flight scheduling"
+      },
+      "feed":{
+         "sp":"You reached your home without much hassle in your trusted airline.",
+         "rn":"The new airlines is overbooked and you are shifted to another flight that is 4 hours later. This is such a mental hassle",
+         "sn":"The airlines is overbooked and you are shifted to another flight that is 4 hours later. This is such a mental hassle",
+         "rp":"The airlines diverted more flights to your route and reduced the delay in flight schedule. You even got your tickets cheaper."
+      }
+   },
+   "20":{
+      "q":"You want to invest in the stock market and are a beginner in this area. In which stocks do you invest?",
+      "op":{
+         "sop":"A stable big company with very low returns.",
+         "rop":"A new emerging company with very high returns suggested by an acquaintance."
+      },
+      "feed":{
+         "sp":"Even if the return is low, your returns are guaranteed as the company is stable.",
+         "rn":"Turns out the new emerging company was a pyramid scheme and you lost most of your investment",
+         "sn":"Even if the returns are stable, there is a very low profit margin",
+         "rp":"Having an acquaintance having experience investing in the firm before helped you to make high profit"
+      }
+   },
+   "21":{
+      "q":"You are going to a friends home which can be accessed only by a bus and has an average journey time of 5 hours. Which bus do you pick?",
+      "op":{
+         "sop":"A deluxe bus with push back seats. But only last row seats are available",
+         "rop":"An ordinary empty bus with no push back seats. It’s cost is half to that of an deluxe bus"
+      },
+      "feed":{
+         "sp":"Even though last row, these pushbacks are lot comfortable than any seats in an ordinary bus",
+         "rn":"The ordinary bus seats are rigid and along with a bumpy ride, this journey gives you a back ache",
+         "sn":"The push back doesn’t work at the last row seats. This last row gives you extra bumpy journey",
+         "rp":"The ordinary bus saves you cost and the sitting in the middle, you don’t even feel the bumps"
+      }
+   },
+   "22":{
+      "q":"There is an important textbook you need to buy for your course. Where do you buy?",
+      "op":{
+         "sop":"A reliable online retailer giving 20% discount",
+         "rop":"A reliable bookstore 10 km away which might give a discount ranging from 10-50% depending on the person managing the counter"
+      },
+      "feed":{
+         "sp":"You got 20% discount without having to go to the market",
+         "rn":"The owners son is at counter today, the best he gave you was 15% discount",
+         "sn":"Turns out that the online seller was the owner of the same bookstore nearby. You would have gotten more discount if you had visited his store.",
+         "rp":"The owner was present and gave you a 40% discount."
+      }
+   },
+   "23":{
+      "q":"The fast charging charger for your one-year-old mobile got damaged and you need to buy a new one. Which one do you buy at the store?",
+      "op":{
+         "sop":"Original company charger costing 20% of the mobile cost",
+         "rop":"A third party fast charging charger costing 2% of the mobile cost and causes no damage to mobile."
+      },
+      "feed":{
+         "sp":"Being an original company charger, it works perfectly",
+         "rn":"Charger is not working properly and you can’t get it replaced as no warranty was provided",
+         "sn":"This one is too costly and only differs from the third party in it’s copyright",
+         "rp":"The fast charging in third party mobile is fragile but works perfectly for your mobile causing no known issues"
+      }
+   },
+   "24":{
+      "q":"You have an important meeting to reach in 30 minutes. The only modes of transport are city bus or shared auto",
+      "op":{
+         "sop":"A share auto available right now which will take 20 minutes to reach your destination",
+         "rop":"A bus that is scheduled to arrive at your location in 5 minutes and reach your destination in 20 minutes considering the stops in between"
+      },
+      "feed":{
+         "sp":"You are the last person boarding the auto and it takes off as soon as you board it. You reach your work with 10 minutes to spare",
+         "rn":"The bus was running late and reached the bus stop 10 minutes late. You would have reached work 5 minutes late",
+         "sn":"The auto takes off as soon as you board it. But he is driving slow and stops at a lot of places in between. You see the bus overtaking you at some point. You reach your office a few minutes late.",
+         "rp":"The bus reaches on time and since it has fixed number of stops in between, you reach your work with 5 minutes to spare."
+      }
+   },
+   "25":{
+      "q":"You have some urgent work across the busy road with heavy traffic and need to cross it.",
+      "op":{
+         "sop":"You cross at zebra crossing 50m away",
+         "rop":"You cross straight across from where you stand to save time"
+      },
+      "feed":{
+         "sp":"It was fairly easy and fast to cross the road at zebra crossing and it wasn’t even farther",
+         "rn":"The traffic was so heavy that it took more time to cross the road than it would have taken in other way",
+         "sn":"Even though the crossing was not far away, it took more time crossing road this way since the traffic was moving at a snail’s pace.",
+         "rp":"The heavy traffic was moving at the pace of snail that it made it easy for you to cross the road faster."
+      }
+   },
+   "26":{
+      "q":"You go to a nearby new eatery place that serves your native food. What do you order?",
+      "op":{
+         "sop":"A known dish that has low rating",
+         "rop":"An Unknown dish that has high rating"
+      },
+      "feed":{
+         "sp":"The food served does not relate to the ratings given. Turns out the the restaurant has been working on improving their dishes based on ratings.",
+         "rn":"Turns out this dish focuses more on it’s appearance rather than on pleasing taste buds",
+         "sn":"Turns out this dish focuses more on it’s appearance rather than on pleasing taste buds"
+      }
+   },
+   "27":{
+      "q":"You went to a movie and want to have some snacks. Being a health conscious person and a popcorn lover which do you choose?",
+      "op":{
+         "sop":"Small popcorn that costs 100/-",
+         "rop":"Medium popcorn that costs 150/-"
+      },
+      "feed":{
+         "sp":"The small one is just enough for a snack",
+         "rn":"The medium has more than you bargained for and gives you a stomach ache",
+         "sn":"Even if this is the right amount in snack, it is not cost effective",
+         "rp":"It is cost effective to buy this and you can always bring the extra popcorn back"
+      }
+   }
+}

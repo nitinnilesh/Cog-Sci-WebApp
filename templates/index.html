@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block content %}
+	<h1>Welcome to the Experiment</h1>
+	<form action="/questionnaire/1">
+		<p>Enter Your Name</p><input type="text" name="field1"><br>
+		<p>Enter E-Mail</p><input type="text" name="field2"><br>
+		<input type="submit" value="Start The Experiment">
+	</form>
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+<head>
+	<title>Questions</title>
+</head>
+{% block content %}
+	<h1>Answer The Question</h1>
+	<!-- This if to choose between thanks and next -->
+	{% if idx < 27 %}
+		<form action="/questionnaire/{{ idx|int + 1 }}">
+			<p>{{ question["q"] }}</p>
+			{% for optn in question["op"].keys() %}
+				<input class="option" type="radio" name="qn" value="{{ question["op"][optn] }}" required> {{ question["op"][optn] }}<br>
+			{% endfor %}
+			<!-- This if to choose between feedback or not -->
+			{% if idx < 13 %}
+				<button type="button" onclick="show_feedback()">Answer</button>
+				<p class="feed" style="font-weight: bold; display:none;">Feedback</p>
+					<p class="feed" style="display:none;">{{ question["feed"]["sp"] }}</p><br>
+					<p class="feed" style="display:none;">{{ question["feed"]["rn"] }}</p><br>
+				<input class="sub" type="submit" name="Next" value="Next" style="display: none;">
+			{% else %}
+				<input class="sub" type="submit" name="Next" value="Next">
+			{% endif %}
+		</form>
+	{% else %}
+		<form action="/thanks">
+			<p>{{ question["q"] }}</p>
+			{% for optn in question["op"].keys() %}
+				<input type="radio" name="qn" value="{{ question["op"][optn] }}" required> {{ question["op"][optn] }}<br>
+			{% endfor %}
+			<input type="submit" name="Next", value="Finish">
+		</form>
+	{% endif %}
+
+	<script type="text/javascript">
+		function show_feedback() {
+			var elems = document.getElementsByClassName('feed');
+			var options = document.getElementsByClassName('option')
+			var sub = document.getElementsByClassName("sub")
+			for (var i=0;i<elems.length;i+=1){
+				elems[i].style.display = 'block';
+			}
+
+			for (var i = 0; i < sub.length; i+=1) {
+				sub[i].style.display = 'block';
+			}
+		}
+	</script>
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,58 @@
+Nitin nitin.nilesh@gmail.com SAFE 
+You finalized two sets of clothing during shopping to wear on a festival to your workplace. Which do you finally pick? Ans:This set contains the type of clothing that you would not normally pick(MIght even consider not your usual style)
+
+You want to buy apples as an apple a day keeps doctor away. Where do you buy them from? Ans:Normal Street vendor with apple cart
+
+You have some urgent work across the busy road with heavy traffic and need to cross it. Ans:You cross straight across from where you stand to save time
+
+You are going to present your project work before an external panel. What clothing do you wear. Ans:Ironed formal wear
+
+You go to a nearby new eatery place that serves your native food. What do you order? Ans:A known dish that has low rating
+
+Your Doctor whom you have been consulting for years prescribed you a medicine for body pains. From available variants, what do you choose? Ans:A generic version of the medicine that costs one-fifth of the branded medicine but differs in appearance and taste
+
+You shop online and there are cashback coupons available. Which do you use? Ans:25% cashback coupon for every 10th customer
+
+You went to a movie and want to have some snacks. Being a health conscious person and a popcorn lover which do you choose? Ans:Medium popcorn that costs 150/-
+
+You want to invest some money for your future and you are going to do this for the first time. Which one would you choose to invest your money? Ans:{}
+
+You want to buy your first car for everyday commuting and just have sufficient savings for a new one. Which one would you be buying? Ans:Showroom car that takes your whole savings but might cost low maintenance
+
+You are driving the vehicle late at the night on a traffic less road. The traffic signal shows red. What do you do? Ans:Jump the signal
+
+You need a laptop for work since your current one passed it’s sixth year and is unable to handle new workload. Which one would you be buying? Ans:A laptop that comes with a three year full warranty at 1000$
+
+Given an option to choose your line of research, which type of problem would you choose? Ans:A good research problem with enough prior work
+
+A close friend of yours wants you to prepare a travel itinerary for his family since you are native to the trip area and gave you an expected route. Ans:You include a must visit important area out of the route which would mean missing some of the famous places.
+
+Even though you are habituated to signup process in online forums, you dislike this memory intensive password selection in the pipeline. For a new forum, what password do you pick? Ans:The same old password that you used at last forum
+
+The day has come where you are financially stable to afford to buy your dream home. Which design would you prefer? Ans:A junior architect with 5 years of experience exclusively in your preferred design domain
+
+A younger cousin of yours has just finished his 10th board exams and asked you for a career suggestion so he could better pick his subject groups in coming years. Ans:You suggest him a career path that has more scope in finding jobs
+
+Your close friend from long time is new in town and wants to meet at a restaurant. Which one do you pick? Ans:A high rating new restaurant which is also known for its ambiance
+
+Which airlines company to choose for your next flight? Ans:Your regular trusted airlines in the normal price range that has ~ 1-hour inconsistency in flight scheduling and has overbooking issue.
+
+You want to invest in the stock market and are a beginner in this area. In which stocks do you invest? Ans:A new emerging company with very high returns suggested by an acquaintance.
+
+You are going to a friends home which can be accessed only by a bus and has an average journey time of 5 hours. Which bus do you pick? Ans:A deluxe bus with push back seats. But only last row seats are available
+
+There is an important textbook you need to buy for your course. Where do you buy? Ans:A reliable bookstore 10 km away which might give a discount ranging from 10-50% depending on the person managing the counter
+
+The fast charging charger for your one-year-old mobile got damaged and you need to buy a new one. Which one do you buy at the store? Ans:Original company charger costing 20% of the mobile cost
+
+You have an important meeting to reach in 30 minutes. The only modes of transport are city bus or shared auto Ans:A bus that is scheduled to arrive at your location in 5 minutes and reach your destination in 20 minutes considering the stops in between
+
+You have some urgent work across the busy road with heavy traffic and need to cross it. Ans:You cross at zebra crossing 50m away
+
+You go to a nearby new eatery place that serves your native food. What do you order? Ans:An Unknown dish that has high rating
+
+You went to a movie and want to have some snacks. Being a health conscious person and a popcorn lover which do you choose? Ans:Small popcorn that costs 100/-
+
+
+
+
