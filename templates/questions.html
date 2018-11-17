@@ -7,6 +7,7 @@
 	<h1>Answer The Question</h1>
 	<!-- This if to choose between thanks and next -->
 	{% if idx < 27 %}
+
 		<form action="/questionnaire/{{ idx|int + 1 }}">
 			<p>{{ question["q"] }}</p>
 			{% for optn in question["op"].keys() %}
@@ -14,15 +15,19 @@
 			{% endfor %}
 			<!-- This if to choose between feedback or not -->
 			{% if idx < 13 %}
+
 				<button type="button" onclick="show_feedback()">Answer</button>
 				<p class="feed" style="font-weight: bold; display:none;">Feedback</p>
 					<p class="feed" style="display:none;">{{ question["feed"]["sp"] }}</p><br>
 					<p class="feed" style="display:none;">{{ question["feed"]["rn"] }}</p><br>
 				<input class="sub" type="submit" name="Next" value="Next" style="display: none;">
+
 			{% else %}
 				<input class="sub" type="submit" name="Next" value="Next">
 			{% endif %}
+
 		</form>
+
 	{% else %}
 		<form action="/thanks">
 			<p>{{ question["q"] }}</p>
@@ -31,6 +36,7 @@
 			{% endfor %}
 			<input type="submit" name="Next", value="Finish">
 		</form>
+		
 	{% endif %}
 
 	<script type="text/javascript">
