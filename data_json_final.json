@@ -118,14 +118,8 @@
    "9":{
       "q":"You want to invest some money for your future and you are going to do this for the first time. Which one would you choose to invest your money?",
       "op":{
-         "sop:Recurring deposit which has low interest rate with almost zero risk":{
-
-
-         },
-         "rop:Mutual fund with high interest rate with high risk of losing money":{
-
-
-         }
+         "sop":"Recurring deposit which has low interest rate with almost zero risk",
+         "rop":"Mutual fund with high interest rate with high risk of losing money"
       },
       "feed":{
          "sp":"You haven’t lost anything and received 5% interest also.",

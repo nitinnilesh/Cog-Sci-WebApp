@@ -1,0 +1,33 @@
+#header {
+		    width: 100%;
+		    height: 50px;
+		    display: flex;
+		    justify-content: center;
+		}
+
+#container {
+    width: 800px;
+    margin: auto;
+    
+}
+#first {
+    width: 300px;
+    float: left;
+    height: 300px;
+    
+}
+#second {
+    width: 300px;
+    float: left;
+    height: 300px;
+    
+}
+#mid {
+	width: 200px;
+	float: left;
+	height: 300px;
+
+}
+#clear {
+    clear: both;
+}

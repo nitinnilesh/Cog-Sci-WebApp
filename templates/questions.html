@@ -2,42 +2,77 @@
 
 <head>
 	<title>Questions</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/alignment.css') }}">
 </head>
 {% block content %}
-	<h1>Answer The Question</h1>
-	<!-- This if to choose between thanks and next -->
+	<div id="header">
+		<h1>Answer The Question</h1>
+		<p style="font-weight: bold;">{{ question["q"] }}</p>
+		<p class="feed" style="font-weight: bold; display:none;">Feedback</p>
+	</div>
+
+	{% set rnd = range(0,2)|random %}
+	{% set map_op_rnd = dict() %}
+	{% set x = map_op_rnd.__setitem__(0, "sop") %}
+	{% set x = map_op_rnd.__setitem__(1, "rop") %}
+
+	{% set map_feed_rnd = dict() %}
+	{% set x = map_feed_rnd.__setitem__(0, "sp") %}
+	{% set x = map_feed_rnd.__setitem__(1, "rn") %}
+	<!-- This is to choose between thanks and next -->
 	{% if idx < 27 %}
-		<div style="display: inline-block;">
+		<div id="container">
 			<form action="/questionnaire/{{ idx|int + 1 }}">
-				<p>{{ question["q"] }}</p>
-				{% for optn in question["op"].keys() %}
-					<input class="option" type="radio" name="qn" value="{{ question["op"][optn] }}" required> {{ question["op"][optn] }}<br><br>
-				{% endfor %}
-				<!-- This if to choose between feedback or not -->
+				<!-- This is to choose between feedback or not -->
 				{% if idx < 13 %}
-					<div style="display: inline-block;">
-						<button type="button" onclick="show_feedback()">Answer</button>
-						<p class="feed" style="font-weight: bold; display:none;">Feedback</p>
-							<p class="feed" style="display:none;">{{ question["feed"]["sp"] }}</p><br>
-							<p class="feed" style="display:none;">{{ question["feed"]["rn"] }}</p><br><br>
-						<input class="sub" type="submit" name="Next" value="Next" style="display: none;">
+
+					<div id="first">
+						<input id="op1" type="radio" name="qn" value="{{ question["op"][map_op_rnd[rnd]] }}" required onclick="show_ans_button()" readonly> {{ question["op"][map_op_rnd[rnd]] }}
+						<p class="feed" style="display:none;"><i>{{ question["feed"][map_feed_rnd[rnd]] }} </i></p><br><br>
 					</div>
+
+					<div id="second">
+						<input id="op2" type="radio" name="qn" value="{{ question["op"][map_op_rnd[1-rnd]] }}" required onclick="show_ans_button()" readonly> {{ question["op"][map_op_rnd[1-rnd]] }}
+						<p class="feed" style="display:none;"><i>{{ question["feed"][map_feed_rnd[1-rnd]] }} </i></p><br>
+					</div>
+
+					<div id="mid">
+						<button id="ans" type="button" style="display: none" onclick="show_feedback()">Answer</button>
+						<input class="sub" type="submit" name="Next" value="Next" style="display: none;">
+					</div>					
+						
 				{% else %}
-					<div style="display: inline-block;">
+					<div id="first">
+						<input id="op1" type="radio" name="qn" value="{{ question["op"][map_op_rnd[rnd]] }}" required> {{ question["op"][map_op_rnd[rnd]] }}
+					</div>
+
+					<div id="second">
+						<input id="op2" type="radio" name="qn" value="{{ question["op"][map_op_rnd[1-rnd]] }}" required> {{ question["op"][map_op_rnd[1-rnd]] }}
+					</div>
+
+					<div id="mid">
 						<input class="sub" type="submit" name="Next" value="Next">
 					</div>
-				{% endif %}
 
+				{% endif %}
 			</form>
 		</div>
 	{% else %}
-		<div style="display: inline-block;">	
+		<div id="container">	
 			<form action="/thanks">
-				<p>{{ question["q"] }}</p>
-				{% for optn in question["op"].keys() %}
-					<input type="radio" name="qn" value="{{ question["op"][optn] }}" required> {{ question["op"][optn] }}<br><br>
-				{% endfor %}
-				<input type="submit" name="Next", value="Finish">
+
+				<div id="first">
+					<input id="op1" type="radio" name="qn" value="{{ question["op"][map_op_rnd[rnd]] }}" required> {{ question["op"][map_op_rnd[rnd]] }}
+				</div>
+
+				<div id="second">
+					<input id="op2" type="radio" name="qn" value="{{ question["op"][map_op_rnd[1-rnd]] }}" required> {{ question["op"][map_op_rnd[1-rnd]] }}
+				</div>
+
+				<div id="mid">
+					<input type="submit" name="Next", value="Finish">
+				</div>
+
 			</form>
 		</div>
 
@@ -55,6 +90,23 @@
 			for (var i = 0; i < sub.length; i+=1) {
 				sub[i].style.display = 'inline-block';
 			}
+		
+
+			if(document.getElementById('op1').checked) {
+				document.getElementById('op2').disabled = true
+
+			}else if(document.getElementById('op2').checked) {
+				document.getElementById('op1').disabled = true
+
+			}	
+
+			var ans = document.getElementById('ans')
+			ans.style.display = 'none'
+		}
+
+		function show_ans_button() {
+			var ans = document.getElementById('ans')
+			ans.style.display = 'inline-block'
 		}
 	</script>
 {% endblock %}
